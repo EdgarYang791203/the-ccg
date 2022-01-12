@@ -1,2 +1,2 @@
 # the-ccg
- A create repository
+ A collectible card game repo
