@@ -1,4 +1,5 @@
 module.exports = {
+  publicPath: process.env.NODE_ENV === "production" ? "/the-ccg" : "/",
   devServer: {
     port: Number(process.env.PORT),
     disableHostCheck: true
