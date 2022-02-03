@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint",
     "vite": "node ./bin/vite",
     "vite:build": "BUILD=true MODERN=true yarn vite",
-    "deploy": "npm run build && normalRD -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^3.6.5",
